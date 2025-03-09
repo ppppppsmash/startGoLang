@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main8() {
 	var sum int // sumは0
 	for a := 6; a >= 0; a-- {
 		sum += a
