@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func main4() {
 	const PI float32 = 3.14
 
 	const (

@@ -8,4 +8,6 @@
 
 // const.go
 
+// struct.go
+
 package main
