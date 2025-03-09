@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main7() {
 	if 5 > 9 {
 		fmt.Println("OK")
 	} else {
