@@ -12,7 +12,7 @@ import "fmt"
 // AA: 27, AB: 28, ..., AZ: 52, BA: 53, BB: 54, ..., ZZ: 701
 // AAA: 702, AAB: 703, ..., ZZZ: 18278
 
-func main() {
+func main3() {
 	fmt.Println("A=%d, Z=%d\n", 'A', 'Z')
 
 	var base int = 'Z' - 'A' + 1
