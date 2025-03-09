@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main9() {
 	// basic_goto()
 	// if_goto()
 	// for_goto()
