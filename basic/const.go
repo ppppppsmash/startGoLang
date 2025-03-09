@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main4() {
 	const PI float32 = 3.14
 
@@ -39,4 +41,10 @@ func main4() {
 		bb, cc                      // iota=1
 		dd, ee                      // iota=2
 	)
+
+	// {}ブロックスコープ
+	{
+		const PI float32 = 3.14
+		fmt.Printf("PI=%f\n", PI)
+	}
 }
