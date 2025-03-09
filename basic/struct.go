@@ -8,7 +8,7 @@ type User struct {
 	Name, Address string
 }
 
-func main() {
+func main5() {
 	var u User
 	u = User{Id: 1, Score: 100, Name: "John", Address: "Tokyo"}
 	// u = User{1, 100, "John", "Tokyo"} // 順番を変えるとエラーになる

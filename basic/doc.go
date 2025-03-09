@@ -10,4 +10,6 @@
 
 // struct.go
 
+// inherit.go
+
 package main
