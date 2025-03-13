@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main10() {
 	// basic_switch()
 	// switch_expression()
 	fall_through(60)
