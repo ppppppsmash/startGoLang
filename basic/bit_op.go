@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main11() {
 	var a uint64 = 5        // 5 = 4 + 1
 	fmt.Printf("a=%b\n", a) // 二進数
 	binaryFormat(a)
