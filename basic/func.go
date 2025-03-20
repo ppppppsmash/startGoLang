@@ -2,10 +2,14 @@ package main
 
 import "time"
 
-func main() {
+func main12() {
 	c, d := 3, 5
 	_, _ = c, d
-	arg1(c, d)
+	// arg1(c, d)
+	// arg2(c, d)
+
+	// &でポインタを渡す
+	arg3(&c, &d)
 }
 
 func arg1(a int, b int) {
