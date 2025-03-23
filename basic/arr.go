@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main13() {
 	array1d()
 	array2d()
 }
@@ -88,6 +88,9 @@ func update_array3(arr [5]*int) {
 
 func for_range_array() {
 	arr := [...]int{1, 2, 3}
+
+	// eleはコピーされる
+	// コピーされたものを変更しても元の配列は変更されない
 	for i, ele := range arr {
 		arr[i] += 8
 		fmt.Printf("%d %d %d\n", i, arr[i], ele)
